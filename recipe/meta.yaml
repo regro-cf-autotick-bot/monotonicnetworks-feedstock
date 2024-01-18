@@ -1,5 +1,5 @@
 {% set name = "monotonicnetworks" %}
-{% set version = "1.5.0" %}
+{% set version = "1.5.1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/monotonicnetworks-{{ version }}.tar.gz
-  sha256: 5bf2a188f2272f0fd8113ddc91da457d140ddfd1a145917136deb536113017af
+  sha256: 0db92a444288974747c833bb9665404265e6e2ae6f95ff511a7457774c8da252
 
 build:
   noarch: python
